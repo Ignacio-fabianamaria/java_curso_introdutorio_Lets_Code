@@ -6,12 +6,15 @@ public class index {
     public static void main(String[] args) {
         Cachorro cachorro1 = new Cachorro();
 
-        cachorro1.nome = "Bob";
-        cachorro1.raça = "Labrador";
-        cachorro1.cor = "caramelo";
-        cachorro1.altura = 50;
-        cachorro1.peso = 4.5;
+        cachorro1.setNome("Bob"); 
+        cachorro1.setRaca("Labrador") ;
+        cachorro1.setCor("caramelo");
+        cachorro1.setAltura(50);
+        cachorro1.setPeso(4.5);
+
+        Cachorro cachorro2 = new Cachorro("Lily", "Marrom", "Labrador", 65, 6.5);
 
         System.out.println(cachorro1.getInfo());
+        System.out.println(cachorro2.getInfo());
     }
 }
