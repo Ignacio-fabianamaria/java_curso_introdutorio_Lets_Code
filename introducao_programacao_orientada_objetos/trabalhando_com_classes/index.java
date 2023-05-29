@@ -16,6 +16,7 @@ public class index {
         Cachorro cachorro2 = new Cachorro(" cadela Lily", "Marrom", "Labrador", 65, 6.5);
         Gato gato1 = new Gato("gatinha Mia", "Cinza", "Não Sei", 20, 1.5);
 
+        System.out.println("--------------------------------------------");
         System.out.println(cachorro1.getInfo());
         System.out.println(cachorro2.getInfo());
         System.out.println(gato1.getInfo());
